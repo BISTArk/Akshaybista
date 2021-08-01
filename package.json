@@ -1,0 +1,25 @@
+{
+  "name": "akshaybista",
+  "version": "1.0.0",
+  "description": "Port-folio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BISTArk/Akshaybista.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Akshay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BISTArk/Akshaybista/issues"
+  },
+  "homepage": "https://github.com/BISTArk/Akshaybista#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
