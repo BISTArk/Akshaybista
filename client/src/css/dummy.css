@@ -1,0 +1,45 @@
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    scroll-snap-align: start;
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+section.about {
+    background-color: rgba(153, 21, 21, 0.815);
+}
+    section.about.about-card {
+      height: 70%;
+      width: 70%;
+      background-color: aliceblue;
+    }
+  
+
+  section.skills {
+    background-color: rgba(0, 0, 0, 0.815);
+  }
+
+  section.projects {
+    background-color: rgba(30, 30, 148, 0.808);
+  }
+
+  section.contact {
+    background-color: rgba(255, 250, 240, 0.644);
+  }
+    section.contact.contact-me {
+      height: 95%;
+    }
+
+    .footer {
+      width: 100%;
+      text-align: center;
+    }
+  

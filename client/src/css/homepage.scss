@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden !important;
+}
+
+body {
+  div.container {
+    scroll-snap-type: y proximity;
+    overflow: scroll;
+    height: 100vh;
+    background-image: url("../Assets/bg-home1.jpg");
+    background-size: cover;
+    color: floralwhite;
+
+    section {
+      scroll-snap-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    section.home {
+      .particle-tag {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 100vw;
+        // z-index: -1;
+      }
+
+      div.navbar {
+        height: 20%;
+
+        nav {
+          width: 100vw;
+          text-align: right;
+          padding: 3%;
+
+          ul {
+            list-style: none;
+
+            li {
+              display: inline-block;
+              margin: 0px 3% 0px 0px;
+
+              &:hover {
+              }
+
+              a {
+                text-decoration: none;
+                color: aliceblue;
+                line-height: 50px;
+                padding: 10px;
+                text-transform: uppercase;
+                transition: 0.5s;
+
+                &:hover {
+                  font-size: larger;
+                  transform: scale(10%,10%,10%);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      div.intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        font-size: 3.5rem;
+        text-align: center;
+
+        h2 {
+          margin-top: -25%;
+        }
+      }
+    }
+
+    section.about {
+      .about-card {
+        height: 70%;
+        width: 70%;
+        background-color: aliceblue;
+        color: #000;
+        box-shadow: 0 0 1.2em 0 rgba(0, 0, 0, 0.2);
+        transition: all 200ms ease-out;
+
+        &:hover {
+          box-shadow: 0 0 1.2em 0 #a7a7a7b9;
+        }
+      }
+      h1 {
+        text-align: center;
+      }
+    }
+
+    section.skills {
+      // background-color: rgba(0, 0, 0, 0.815);
+    }
+
+    section.projects {
+      // background-color: rgba(30, 30, 148, 0.808);
+    }
+
+    section.contact {
+      // background-color: rgba(255, 250, 240, 0.644);
+
+      .contact-me {
+        height: 95%;
+      }
+
+      .footer {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
